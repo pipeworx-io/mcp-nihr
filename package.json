@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-nihr",
+  "version": "0.1.0",
+  "description": "UK NIHR (National Institute for Health and Care Research) open-data MCP.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nihr"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-nihr"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
