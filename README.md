@@ -2,6 +2,8 @@
 
 UK NIHR MCP — every research and training award made by the National Institute for Health and Care Research: who was funded, which programme, how much, where, and which health category. Keyless.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Tools
 
 - `nihr_search_awards(...)` — keyword search over award titles and abstracts, with filters on programme, funding stream, status, organisation, award amount and start date. Sortable by value or start date.
@@ -42,7 +44,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1375+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -66,7 +68,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
