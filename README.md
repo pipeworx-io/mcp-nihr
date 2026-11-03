@@ -2,7 +2,7 @@
 
 UK NIHR MCP — every research and training award made by the National Institute for Health and Care Research: who was funded, which programme, how much, where, and which health category. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1867+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -19,7 +19,7 @@ None. The NIHR Opendatasoft portal is fully open — no key, no signup, no per-k
 ## Data sources
 
 - Portal: https://nihr.opendatasoft.com/
-- Dataset catalogue: `https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets?limit=40` (26 datasets)
+- Dataset catalogue: UK NIHR (26 datasets)
 - Awards (primary, 11,502 rows): `https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/nihr-summary-view/records`
 - Award holders (12,644 rows): `https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/award-holders-table/records`
 - Public record per award: `https://fundingawards.nihr.ac.uk/award/<project_id>`
@@ -74,7 +74,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1867+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
